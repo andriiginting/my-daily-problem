@@ -10,8 +10,7 @@ public class FirstDayTest {
 
         int[] solutions = new int[]{10, 15, 3, 7};
 
-        firstDay.solution(solutions,0);
-        assertEquals(0,0);
+        assertEquals(0,firstDay.solution(solutions,0));
     }
 
     @Test
@@ -19,9 +18,7 @@ public class FirstDayTest {
         FirstDay firstDay = new FirstDay();
 
         int[] solutions = new int[]{};
-
-        firstDay.solution(solutions,0);
-        assertEquals(0,0);
+        assertEquals(0,firstDay.solution(solutions,0));
     }
 
     @Test
@@ -29,8 +26,6 @@ public class FirstDayTest {
         FirstDay firstDay = new FirstDay();
 
         int[] solutions = new int[]{10, 15, 3, 7};
-
-        firstDay.solution(solutions,17);
-        assertEquals(1,1);
+        assertEquals(1,firstDay.solution(solutions,17));
     }
 }
