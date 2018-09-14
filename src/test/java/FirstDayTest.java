@@ -26,6 +26,8 @@ public class FirstDayTest {
         FirstDay firstDay = new FirstDay();
 
         int[] solutions = new int[]{10, 15, 3, 7};
+        int[] solutions2 = new int[]{10, 5, 5, 9, 0, 10, 2, 10, 1, 5};
         assertEquals(1,firstDay.solution(solutions,17));
+        assertEquals(9,firstDay.solution(solutions2,15));
     }
 }
