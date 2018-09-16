@@ -5,11 +5,13 @@ import static org.junit.Assert.*;
 public class SecondDayTest {
 
     @Test
-    public void testSolutionIfArrayNull(){
+    public void testSolution(){
         SecondDay secondDay = new SecondDay();
 
-        int[] solutions = new int[]{0};
+        int[] firstTest = new int[]{15, 5, 20, 10, 35, 15, 10};
+        int[] secondTest = new int[]{15, 5, 20, 10, 35};
 
-        assertTrue(secondDay.solution(solutions));
+        assertTrue(secondDay.pairedValue(firstTest, firstTest.length));
+        assertFalse(secondDay.pairedValue(secondTest, secondTest.length));
     }
 }
