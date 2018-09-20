@@ -9,8 +9,7 @@ references :
   - *feedback is welcomed guys*
 
 ## Prerequisite:
-  - Java 
-  - Kotlin
+  - Java
  
  Build instructions 
  ``` 
@@ -28,4 +27,6 @@ references :
  ```
   
 ## Author
-[Andriiginting ](https://github.com/andriiginting)
+[Andriiginting](https://github.com/andriiginting)
+[Rizqi Aryansa](https://github.com/rizqiaryansa)
+[Arifin Firdaus](https://github.com/arifinfrds)
