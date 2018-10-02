@@ -5,9 +5,9 @@ public class MarkAndToys {
         int count = 0;
         int temp = 0;
         Arrays.sort(prices);
-        for(int i = 0; i < prices.length;i++){
-            temp += prices[i];
-            if(temp > k) {
+        for (int price : prices) {
+            temp += price;
+            if (temp > k) {
                 break;
             }
             count++;
