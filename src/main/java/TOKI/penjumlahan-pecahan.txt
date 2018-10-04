@@ -1,0 +1,24 @@
+Deskripsi
+Pak Dengklek memberikan Anda dua buah pecahan dalam bentuk A/B dan C/D. Hitunglah A/B + C/D, lalu cetak hasilnya dalam bentuk yang paling sederhana. Bentuk paling sederhana dari suatu pecahan adalah ketika FPB dari pembilang dan penyebutnya adalah 1.
+
+Format Masukan
+Baris pertama berisi dua buah bilangan bulat A dan B. Baris kedua berisi dua buah bilangan bulat C dan D.
+
+Format Keluaran
+Sebuah baris berisi dua buah bilangan bulat, yaitu E dan F, di mana E/F = A/B + C/D dan E/F adalah bentuk yang paling sederhana.
+
+Contoh Masukan 1
+2 3
+4 5
+Contoh Keluaran 1
+22 15
+Contoh Masukan 2
+2 4
+3 8
+Contoh Keluaran 2
+7 8
+Batasan
+A, B, C, dan D adalah bilangan bulat positif yang muat dalam tipe data bilangan bulat 32-bit (longint pada Free Pascal, atau int pada C/C++).
+Dijamin E dan F muat dalam tipe data bilangan bulat 64-bit (int64 pada Free Pascal, atau long long pada C/C++).
+
+https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/51/problems/226/
