@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+public class BreakingTheRecords {
 
   // Count
   // Game   Score  Minimum  Maximum     Min Max
