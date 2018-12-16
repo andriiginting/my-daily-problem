@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirstDayTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-09-20T10:49:01" hostname="Andriis-MacBook-Pro.local" time="0.012">
+  <properties/>
+  <testcase name="testSolution" classname="FirstDayTest" time="0.011"/>
+  <testcase name="testSolutionIfSumNull" classname="FirstDayTest" time="0.0"/>
+  <testcase name="testSolutionIfArrayNull" classname="FirstDayTest" time="0.0"/>
+  <system-out><![CDATA[result -> 1
+result -> 9
+result -> 0
+result -> 0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

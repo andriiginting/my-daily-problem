@@ -13,7 +13,6 @@ public class AppleAndOranger {
                 orangeCount++;
             }
         }
-
         System.out.println(appleCount);
         System.out.println(orangeCount);
     }
